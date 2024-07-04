@@ -1,0 +1,113 @@
+
+
+.items-wrapper{
+    width: 100%;
+    height: 80vh;
+    padding-left: 5em;
+    padding-right: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+  grid-template-rows: repeat(3, 1fr); /* 3 rows with equal height */
+  gap: 1rem;
+}
+.items-wrapper .item{
+    width: 15vw;
+    height: 17vh;
+    background-color: #E6F0FF;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0px 10px;
+    color: #0065FF;
+}
+.item:nth-child(2){
+    background-color: #ceedce;
+    color: #228B22;
+}
+.item:nth-child(3){
+    background-color: #FFFAEB;
+    color: #ffbf00;
+}
+.item:nth-child(4){
+    background-color: #d0dde9;
+    color: #4a5561;
+}
+.item:nth-child(5){
+    background-color: #e9cbcb;
+    color: #8B0000;
+}
+.item:nth-child(6){
+    background-color: #c3d8ed;
+    color: #1E90FF;
+}
+.item:nth-child(7){
+    background-color: #d2eac5;
+    color: #5cd21c;
+}
+
+
+.item:nth-child(2) a{
+    color: #228B22;
+}
+.item:nth-child(3) a{
+    color: #ffbf00;
+}
+.item:nth-child(4) a{
+    color: #4a5561;
+}
+.item:nth-child(5) a{
+    color: #8B0000;
+}
+.item:nth-child(6) a{
+    color: #1E90FF;
+}
+.item:nth-child(7) a{
+    color: #5cd21c;
+}
+.icon-container{
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-wrapper{
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-container h6 a{
+    font-size: 1vw;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.count{
+    width: 100%;
+    height: 3.5vh;
+    display: flex;
+    align-items: center;
+}
+.count h1{
+    font-size: 1.5vw;
+}
+.item-name{
+    width: 100%;
+    height: 2vh;
+    display: flex;
+    align-items: center;
+}   
+.item-name p{
+    font-size: 1vw;
+
+}
+
+

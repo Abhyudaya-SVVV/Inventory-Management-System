@@ -1,0 +1,137 @@
+.heading{
+    width: 100%;
+    height: 5rem;
+}
+.heading h1{
+    font-size: 1.7rem;
+    margin: 22px 0px 0px 60px;
+}
+.search-download-btn-container {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-field{
+    width: 20rem;
+    height: 2.5rem;
+    display: flex;
+    gap: 15px;
+    margin-left: 3.5rem;
+}
+.input{
+  font-size: 18px;
+    border-radius: 10px;
+    outline: 3px solid #0065FF;
+    border: 0;
+    background-color: #fafafa;
+    outline-offset: 2px;
+    padding: 10px 1rem;
+    transition: 0.25s;
+  }
+  
+  .input:focus {
+    outline-offset: 3px;
+    background-color: #f0efef
+  }
+  button{
+    height: 2.6rem;
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: #0065FF;
+    color: white;
+    border-radius: 4px;
+   }
+   
+   button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #0065FF 0%, rgb(0, 140, 255) 100%);
+   }
+   
+   button:active {
+    transform: translate(0em, 0.2em);
+   }
+   .download-btn{
+    margin-right: 2rem;
+   }
+.table-wrapper{
+    width: 100%;
+    height: 43rem;
+}
+
+
+table {
+    margin: auto;
+    margin-top: 30px;
+    width: 95%;
+    border: 1px solid rgba(0, 0, 0, 0.166); 
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    font-size: 20px;
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  td button {
+    margin-right: 5px;
+    padding: 6px 12px;
+    background-color: #0065FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  td button.delete-btn {
+    background-color: #f44336;
+  }
+  
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+  
+    th, td {
+      padding: 10px 12px;
+    }
+  
+    td button {
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    table {
+      font-size: 12px;
+    }
+  
+    th, td {
+      padding: 8px 10px;
+    }
+  
+    td button {
+      padding: 4px 8px;
+      font-size: 10px;
+    }
+  
+    th:nth-child(3),
+    td:nth-child(3),
+    th:nth-child(4),
+    td:nth-child(4) {
+      display: none;
+    }
+  }

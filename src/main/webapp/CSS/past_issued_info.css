@@ -1,0 +1,60 @@
+.item-info-heading{
+    width: 100%;
+    font-size: 1.2rem;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+.item-info-heading a{
+    margin-left: 5rem;
+    font-size: 2.4rem;
+    display: flex;
+    align-items: center;
+    color: black;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.item-info-heading a:hover{
+    background-color: #0066ff85;
+}
+.item-info-wrapper{
+    width: 100%;
+    overflow: scroll;
+    height: 42rem;
+}
+.item-info-container {
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 0.1px rgba(0, 0, 0, 0.248);
+  }
+  
+  .input-group {
+    margin-top: 15px;
+  }
+  
+  .input-row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input-row label{
+    width: 11vw;
+    font-size: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="number"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  

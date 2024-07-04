@@ -1,0 +1,143 @@
+.heading{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .heading h1{
+    font-size: 2rem;
+    margin: 22px 0px 0px 60px;
+  }
+  
+  
+  .input {
+    height: 2rem;
+    border-radius: 10px;
+    outline: 2px solid #0065FF;
+    border: 0;
+    background-color: #fafafa;
+    outline-offset: 2px;
+    padding: 10px 1rem;
+    transition: 0.25s;
+  }
+  
+  .input:focus {
+    outline-offset: 3px;
+    background-color: #f0efef;
+  }
+  
+  .form-wrapper{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto; 
+    padding: 23px 0px;
+  }
+  
+  .form-container {
+    width: 50vw;
+    display: grid;
+    grid-gap: 10px;
+    max-height: 100%; 
+    overflow-y: auto; 
+    box-shadow: 0px 4px 10px 0.1px rgba(0, 0, 0, 0.248);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-container label {
+    font-size: 18px;
+  }
+  
+  .form-container input, .form-container select {
+    font-size: 1.1rem;
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #add-detail-btn{
+    width: 13rem;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+
+  button {
+    height: 2.6rem;
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: #0065FF;
+    color: white;
+    border-radius: 4px;
+    margin-top: 8px;
+   }
+   
+   button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #0065FF 0%, rgb(0, 140, 255) 100%);
+   }
+   
+   button:active {
+    transform: translate(0em, 0.2em);
+   }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .popup h2 {
+    margin-bottom: 10px;
+  }
+  
+  .popup button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: #0056b3;
+  }
+  .inputmail
+    {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+  .heading h1 
+  {
+    font-size: 2rem;
+    margin: 0px 7px 0px 220px;
+  }
+  .form
+  {
+  display: flex;
+  gap: 7px;
+  flex-direction: column;
+  }
