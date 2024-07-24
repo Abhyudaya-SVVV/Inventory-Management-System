@@ -34,7 +34,3 @@ To run the SvvvInvento application locally, follow these steps:
 3. Build the application using your preferred Java build tool (e.g., Maven or Gradle).
 4. Deploy the application to a Java application server (e.g., Tomcat).
 5. Access the application through your web browser.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
